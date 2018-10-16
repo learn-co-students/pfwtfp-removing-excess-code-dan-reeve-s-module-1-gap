@@ -9,16 +9,32 @@
 
 ## Introduction
 
-- Provide code that is convoluted, contains extra/unused variables, irrelevant steps for students to clean out
+In this lesson, we will be looking in more detail at part of the process of
+refactoring - removing excess code.
 
-### Code Along,Recognize common anti-patterns that lead to excess code
+Tidying up code serves multiple purposes. It makes it easier for our future
+selves to understand what we've written. But more than that, it also improves
+our current understanding of the code we've written.
 
-### Identify unused and/or excessive expressions
+### Recognize Common Causes of Excess Code
 
-### Interpret existing functions to derive purpose
+- Provide a few code examples that are convoluted, contains extra/unused variables, irrelevant steps for students to clean out.
+- Simple at first to help the student understand the process. Each example can be a slightly different problem.
 
-### Recognize how refactoring code improves readability
+Some anti-patterns to discuss:
+
+- Assigning inputs to variables
+- Unused inputs
+- Assigning variables and not using them
+- Overly complicated loops
+- Multiple nested if statements
+
+### Applying
+
+- Using a final, larger code example, go through the process of on unknotting and cleaning up the code by looking for the anti-patterns discussed in the previous section
 
 ## Conclusion
+
+- Reiterate value of tidying up code
 
 ## Resources
